@@ -1,0 +1,854 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wizshop\n"
+"POT-Creation-Date: 2020-06-09 15:58+0300\n"
+"PO-Revision-Date: 2020-06-09 15:59+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: he\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n==2 ? 1 : n>10 && n%10==0 ? "
+"2 : 3);\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: include\n"
+"X-Poedit-SearchPathExcluded-1: components\n"
+"X-Poedit-SearchPathExcluded-2: templates\n"
+"X-Poedit-SearchPathExcluded-3: default\n"
+"X-Poedit-SearchPathExcluded-4: widgets\n"
+
+#: admin/cat-meta.php:71 admin/tabs.php:24
+msgid "Select Menu"
+msgstr "בחירת תפריט"
+
+#: admin/cat-meta.php:72 admin/tabs.php:25
+msgid "Select Item"
+msgstr "בחירת פריט"
+
+#: admin/cat-meta.php:73
+msgid "All"
+msgstr "הכל"
+
+#: admin/cat-meta.php:77
+msgid ""
+"Please note, Updating the menu may delete categories from this menu. On "
+"sites where Mega-Menu is integrated, this update may reset the design. "
+"Update menu?"
+msgstr ""
+"שימו לב, \n"
+"עדכון תפריט עשוי לבצע מחיקה של קטגוריות מתפריט זה.\n"
+"באתרים בהם משולב מגה מניו, עדכון זה עלול לאפס את העיצוב.\n"
+"האם לעדכן את התפריט?"
+
+#: admin/cat-meta.php:78 admin/tabs.php:32
+msgid "Delete item ?"
+msgstr "למחוק פריט ?"
+
+#: admin/cat-meta.php:105 admin/cat-meta.php:275 shop_widgets.php:257
+msgid "Products display"
+msgstr "תצוגת מוצרים"
+
+#: admin/cat-meta.php:110 admin/tabs.php:99
+msgid "Default"
+msgstr "תצוגת ברירת מחדל"
+
+#: admin/cat-meta.php:112
+msgid "Or select from options below:"
+msgstr "או בחירה מהאפשרויות הבאות:"
+
+#: admin/cat-meta.php:134 admin/media-lib.php:105
+msgid "Choose Image"
+msgstr "בחירת תמונה"
+
+#: admin/cat-meta.php:137
+msgid "Remove Image"
+msgstr "הסרת תמונה"
+
+#: admin/cat-meta.php:219
+msgid "Assign categories"
+msgstr "שיוך קטגוריות"
+
+#: admin/cat-meta.php:229
+msgid "Import Categories"
+msgstr "ייבוא קטגוריות החנות"
+
+#: admin/cat-meta.php:231
+msgid "Import Categories from Shop server(without updating the menus):"
+msgstr "ייבוא קטגוריות המוגדרות בחשבשבת (ללא עדכון תפריטים)"
+
+#: admin/cat-meta.php:236
+msgid "Update image names on WizShop back office"
+msgstr "עדכון שמות תמונות במשרד האחורי של החנות הוירטואלית"
+
+#: admin/cat-meta.php:242
+msgid ""
+"Delete current categories. <b>Warning!</b> All categories data wil be deleted"
+msgstr "מחיקת רשימת קטגוריות נוכחית. <b>אזהרה!</b> כל נתוני הקטגוריות ימחקו"
+
+#: admin/cat-meta.php:246
+msgid "Last updated date"
+msgstr "תאריך עדכון אחרון"
+
+#: admin/cat-meta.php:250
+msgid "Update Categories"
+msgstr "עדכון קטגוריות"
+
+#: admin/cat-meta.php:254
+msgid "Assign categories to menus"
+msgstr "שיוך קטגוריות לתפריטים"
+
+#: admin/cat-meta.php:259 admin/tabs.php:146
+msgid "Menu Name"
+msgstr "שם התפריט"
+
+#: admin/cat-meta.php:260
+msgid "Parent item"
+msgstr "פריט אב"
+
+#: admin/cat-meta.php:261
+msgid "Menu Levels"
+msgstr "מספר רמות בתפריט"
+
+#: admin/cat-meta.php:271
+msgid "Add menu"
+msgstr "הוספת תפריט"
+
+#: admin/cat-meta.php:286
+msgid "Update Display Options"
+msgstr "עדכון אפשרויות תצוגה"
+
+#: admin/cat-meta.php:302 admin/cat-meta.php:384 admin/settings.php:200
+msgid ""
+"Please <a href=\"/wp-admin/edit.php?post_type=wizshop&page=wizshop_settings"
+"\">provide your Shop ID</a> to connect to the WizShop database."
+msgstr ""
+"אנא <a href=\"/wp-admin/edit.php?post_type=wizshop&page=wizshop_settings"
+"\">הגדירו מזהה חנות</a> על מנת לקשר את האתר לבסיס הנתונים של חשבשבת. "
+
+#: admin/cat-meta.php:306 admin/cat-meta.php:387 admin/cat-meta.php:513
+msgid "Invalid Categories option name."
+msgstr "מזהה הגדרות עבור קטגוריות לא תקין."
+
+#: admin/cat-meta.php:322
+msgid "Categories updated."
+msgstr "הקטגוריות עודכנו."
+
+#: admin/cat-meta.php:393 admin/cat-meta.php:400
+msgid "Menu updated."
+msgstr "התפריט עודכן."
+
+#: admin/cat-meta.php:504 admin/cat-meta.php:517
+msgid "Unchanged."
+msgstr "ללא שינוי."
+
+#: admin/cat-meta.php:526
+msgid "Error while saving the changes."
+msgstr "שגיאה בשמירת נתונים."
+
+#: admin/media-lib.php:18
+msgid "WizShop Media Settings"
+msgstr "הגדרות מדיה - חנות וירטואלית"
+
+#: admin/media-lib.php:22
+msgid ""
+"The dimensions set here are the maximum sizes (in pixels) for item pictures"
+msgstr ""
+"הגדלים המפורטים להלן יקבעו את הממדים המקסימליים בפיקסלים לשימוש בעת הוספת "
+"תמונה לספריית המדיה"
+
+#: admin/media-lib.php:41
+msgid "Grid image"
+msgstr "תמונה לגריד מוצרים"
+
+#: admin/media-lib.php:47
+msgid "Product image"
+msgstr "תמונה לדף מוצר"
+
+#: admin/media-lib.php:52
+msgid "Category image"
+msgstr "תמונה לקטגוריה"
+
+#: admin/media-lib.php:66
+msgid "Use WP Media for Product's additional images"
+msgstr "העלאה ואחסון תמונות נוספות לפריט באמצעות המדיה של וורדפרס"
+
+#: admin/media-lib.php:71
+msgid ""
+"Learn <a href='https://wizshop.co.il/%d7%94%d7%95%d7%a1%d7%a4%d7%aa-%d7%aa"
+"%d7%9e%d7%95%d7%a0%d7%95%d7%aa-%d7%a0%d7%95%d7%a1%d7%a4%d7%95%d7%aa-%d7%9c"
+"%d7%a4%d7%a8%d7%99%d7%98/' target='_blank'>more</a> about Product's "
+"additional images."
+msgstr ""
+"מידע נוסף על הוספת תמונות לפריט ניתן למצוא <a href='https://wizshop.co.il/"
+"%d7%94%d7%95%d7%a1%d7%a4%d7%aa-%d7%aa%d7%9e%d7%95%d7%a0%d7%95%d7%aa-"
+"%d7%a0%d7%95%d7%a1%d7%a4%d7%95%d7%aa-%d7%9c%d7%a4%d7%a8%d7%99%d7%98/' "
+"target='_blank'>במדריך הבא</a>."
+
+#: admin/media-lib.php:72
+msgid ""
+"Web Designers can find more about Image Sizes <a href='https://wizshop.co.il/"
+"%d7%94%d7%a2%d7%9c%d7%90%d7%aa-%d7%aa%d7%9e%d7%95%d7%a0%d7%95%d7%aa-%d7%9e"
+"%d7%95%d7%a6%d7%a8%d7%99%d7%9d/' target='_blank'>here</a>."
+msgstr ""
+"תיעוד לבוני אתרים בנושא הגדרת גודלי תמונות ניתן למצוא <a href='https://"
+"wizshop.co.il/%d7%94%d7%a2%d7%9c%d7%90%d7%aa-%d7%aa%d7%9e"
+"%d7%95%d7%a0%d7%95%d7%aa-%d7%9e%d7%95%d7%a6%d7%a8%d7%99%d7%9d/' "
+"target='_blank'>כאן</a>."
+
+#: admin/media-lib.php:78
+msgid "WizShop Media Files"
+msgstr "העלאת קבצי מדיה לחנות הוירטואלית"
+
+#: admin/media-lib.php:79
+msgid "Here you can upload new images and edit the media library"
+msgstr "כאן ניתן להעלות את תמונות הפריטים והקטגוריות לחנות"
+
+#: admin/media-lib.php:80
+msgid "The images will appear in the general media folder"
+msgstr "התמונות יופיעו בספריית המדיה הכללית"
+
+#: admin/media-lib.php:86
+msgid "Insert Media"
+msgstr "הוספת מדיה"
+
+#: admin/media-lib.php:92
+msgid "WizShop Default Image"
+msgstr "תמונת ברירת מחדל - חנות וירטואלית"
+
+#: admin/media-lib.php:93
+msgid "Set default fallback image"
+msgstr "בחירת תמונת ברירת מחדל לתמונות חסרות"
+
+#: admin/settings.php:23
+msgid "<a href=\"#\">Update</a> WizShop plugin version data."
+msgstr "<a href=\"#\">עדכון</a> נתוני גרסה לתוסף חנות וירטואלית."
+
+#: admin/settings.php:50
+msgid "Settings"
+msgstr "הגדרות"
+
+#: admin/settings.php:51
+msgid "Media"
+msgstr "מדיה"
+
+#: admin/settings.php:80
+msgid "Save Products Settings?"
+msgstr "האם לשמור הגדרות תצוגת מוצרים ?"
+
+#: admin/settings.php:89
+msgid "Link to WizShop"
+msgstr "קישור חנות חשבשבת"
+
+#: admin/settings.php:90
+msgid "Shop ID"
+msgstr "מזהה חנות"
+
+#: admin/settings.php:91
+msgid "Password"
+msgstr "סיסמא"
+
+#: admin/settings.php:93
+msgid "Shop languages"
+msgstr "שפות החנות"
+
+#: admin/settings.php:94
+msgid "Shop main language"
+msgstr "השפה העיקרית של החנות"
+
+#: admin/settings.php:95
+msgid "Second language"
+msgstr "שפה נוספת"
+
+#: admin/settings.php:100
+msgid "Ignore new design"
+msgstr "התעלמות מעיצוב חדש"
+
+#: admin/settings.php:102
+msgid "Version Update"
+msgstr "עדכון גרסא"
+
+#: admin/settings.php:113 globals.php:84
+msgid "Products"
+msgstr "מוצרים"
+
+#: admin/settings.php:114
+msgid "Shop pages"
+msgstr "דפים"
+
+#: admin/settings.php:116
+msgid "Shop Elements"
+msgstr "רכיבים"
+
+#: admin/settings.php:118
+msgid "Shop Customers"
+msgstr "לקוחות"
+
+#: admin/settings.php:119
+msgid "Other Settings"
+msgstr "הגדרות נוספות"
+
+#: admin/settings.php:124
+msgid "Shop Settings"
+msgstr "הגדרות חנות"
+
+#: admin/settings.php:133
+msgid "General Information"
+msgstr "מידע כללי"
+
+#: admin/settings.php:134
+msgid "Plugin version"
+msgstr "גרסת תוסף"
+
+#: admin/settings.php:135
+msgid "Shop manages Shipping"
+msgstr "החנות מנהלת משלוחים"
+
+#: admin/settings.php:135 admin/settings.php:136
+msgid "Yes"
+msgstr "כן"
+
+#: admin/settings.php:135 admin/settings.php:136
+msgid "No"
+msgstr "לא"
+
+#: admin/settings.php:136
+msgid "Shop supports guest checkout"
+msgstr "החנות תומכת ברכישת אורח/ת"
+
+#: admin/settings.php:137
+msgid "Product Search Engine"
+msgstr "מנוע חיפוש מוצרים"
+
+#: admin/settings.php:138
+msgid "WizSoft Search"
+msgstr "חיפוש חכם"
+
+#: admin/settings.php:138
+msgid "Default Search"
+msgstr "חיפוש רגיל"
+
+#: admin/settings.php:139
+msgid ""
+"Learn <a href='https://wizshop.co.il/%d7%97%d7%99%d7%a4%d7%95%d7%a9-%d7%9e"
+"%d7%95%d7%a6%d7%a8%d7%99%d7%9d-%d7%91%d7%97%d7%a0%d7%95%d7%aa/' "
+"target='_blank'>more</a> about Product Search"
+msgstr ""
+"מידע נוסף על אפשרויות החיפוש ניתן למצוא <a href='https://wizshop.co.il/"
+"%d7%97%d7%99%d7%a4%d7%95%d7%a9-%d7%9e%d7%95%d7%a6%d7%a8%d7%99%d7%9d-"
+"%d7%91%d7%97%d7%a0%d7%95%d7%aa/' target='_blank'>בתיעוד</a>"
+
+#: admin/settings.php:141
+msgid "Shop address (WizShop use)"
+msgstr "כתובת חנות  (לשימוש חשבשבת)"
+
+#: admin/settings.php:144
+msgid "Refresh General Information"
+msgstr "רענון מידע כללי"
+
+#: admin/settings.php:204
+msgid "Shop password was not provided."
+msgstr "לא עודכן שדה סיסמת וורדפרס."
+
+#: admin/settings.php:302
+msgid "Store ID as specified in WizShop back office"
+msgstr "מזהה חנות שנקבע במשרד האחורי של החנות הוירטואלית"
+
+#: admin/settings.php:313
+msgid "Wordpress password as specified in WizShop back office"
+msgstr "סיסמת וורדפרס שנקבעה במשרד האחורי של החנות הוירטואלית"
+
+#: admin/settings.php:334
+msgid "Select Language"
+msgstr "בחירת שפה"
+
+#: admin/settings.php:348
+msgid ""
+"Select this option if shop was built before version 2.00 and you wish to "
+"keep current design"
+msgstr ""
+"מומלץ לסמן אפשרות זו במידה והחנות נבנתה לפני גרסא 2.00  כדי לשמור על העיצוב "
+"הקיים"
+
+#: admin/settings.php:404
+msgid "Failed to copy default image to \\uploads\\wizshop folder."
+msgstr "העתקת תמונת ברירת מחדל למחיצת /uploads/wizshop נכשלה."
+
+#: admin/settings.php:421
+msgid "Default Image"
+msgstr "תמונת ברירת מחדל"
+
+#: admin/tabs.php:29
+msgid "Select File"
+msgstr "בחירת קובץ"
+
+#: admin/tabs.php:98
+msgid "Select Page"
+msgstr "בחירת דף"
+
+#: admin/tabs.php:100
+msgid "Pages"
+msgstr "דפים"
+
+#: admin/tabs.php:103
+msgid "This is action will delete page contnet. Continue ?"
+msgstr "פעולה זו תמחק את תוכן הדף. להמשיך ?"
+
+#: admin/tabs.php:124
+msgid "Adding WizShop Elements to Menus"
+msgstr "הוספת אלמנטים לתפריט"
+
+#: admin/tabs.php:125
+msgid "Add items to selected menu"
+msgstr "הוספת פריטים לתפריט"
+
+#: admin/tabs.php:126
+#, php-format
+msgid ""
+"The plugin comes with several elements ready for your website's <b>menus</"
+"b>. <br/>\n"
+"Each element is based on a .php file located in folder <i>'%s'</i>. <br/>\n"
+"You can use existing elements or copy / add elements to theme's folder "
+"<i>'%s'</i>.<br/>\n"
+"To add an element select the menu from the list, chose the menu item after "
+"which you'd like to add the element. <br/>\n"
+"If none is chosen the element will be displayed at the end of the menu."
+msgstr ""
+"התוסף מגיע עם כמה אלמנטים המוכנים להוספה<b> לתפריטים </b> באתר שלך. <br/>כל "
+"אלמנט מבוסס על קובץ .php הממוקם בתיקיה <i>'%s'</i>.</br>ניתן להשתמש באלמנטים "
+"קיימים או להעתיק / להוסיף אלמנטים לתיקייה של ערכת הנושא <i>'%s'</i>.</br>על "
+"מנת להוסיף אלמנט של החנות לתפריט בחרו את התפריט הרצוי ולאחר מכן את הפריט "
+"שאחריו תרצו לשלב את האלמנט.<br/>במידה ולא ייבחר פריט האלמנט יתווסף בסוף "
+"התפריט."
+
+#: admin/tabs.php:147
+msgid "Add after this item"
+msgstr "הוספת פריט אחרי"
+
+#: admin/tabs.php:148
+msgid "File Name"
+msgstr "שם קובץ"
+
+#: admin/tabs.php:164
+msgid ""
+"You can create and add an unlimited number of elements, read <a "
+"href='https://wizshop.co.il/%D7%A2%D7%A8%D7%99%D7%9B%D7%AA-"
+"%D7%A7%D7%91%D7%A6%D7%99-%D7%9E%D7%A7%D7%95%D7%A8/' target='_blank'>more</a> "
+"in our documentation.</a> <br/>\n"
+"\n"
+"New elements will be automatically added to the list above."
+msgstr ""
+"ניתן ליצור מספר לא מוגבל של אלמנטים נוספים בתפירה אישית, הסבר מורחב ב-<a "
+"href='https://wizshop.co.il/עריכת-קבצי-מקור/' target='_blank'>תיעוד למפתחים</"
+"a>.</br>אלמנטים חדשים יתווספו לרשימה באופן אוטומטי."
+
+#: admin/tabs.php:170
+msgid "Page Settings"
+msgstr "הגדרת דפים"
+
+#: admin/tabs.php:171
+msgid ""
+"When the plugin is installed it creates several <b>pages</b> with WizShop "
+"elements assigned to them. <br/>\n"
+"You can change the page's assignment here"
+msgstr ""
+"התוסף מייצר עם התקנתו מספר <b>דפים</b> המכילים את מרכיבי החנות <br/> במידה "
+"ותרצו לשנות את שם הדף תוכלו להשתמש בהגדרות אלו"
+
+#: admin/tabs.php:200
+msgid "Element"
+msgstr "רכיב חנות"
+
+#: admin/tabs.php:201
+msgid "Page"
+msgstr "שם דף"
+
+#: admin/tabs.php:222
+msgid "Products View"
+msgstr "תצוגת מוצרים"
+
+#: admin/tabs.php:224
+msgid "To set products view, first select the device type."
+msgstr "להגדרת תצוגת מוצרים יש לבחור תחילה את סוג המכשיר."
+
+#: admin/tabs.php:228
+msgid "Products Grid layout"
+msgstr "פריסת מוצרים בגריד"
+
+#: admin/tabs.php:232
+msgid "Gallery"
+msgstr "גלריה"
+
+#: admin/tabs.php:234 admin/tabs.php:243 admin/tabs.php:249
+msgid "Products in page"
+msgstr "מוצרים בדף"
+
+#: admin/tabs.php:237
+msgid "Products in line"
+msgstr "מוצרים בשורה"
+
+#: admin/tabs.php:242 globals.php:38
+msgid "Table"
+msgstr "טבלה"
+
+#: admin/tabs.php:248 globals.php:39
+msgid "Lines"
+msgstr "שורות"
+
+#: admin/tabs.php:255
+msgid "Load additional products in Grid using"
+msgstr "אופן טעינת מוצרים בגריד"
+
+#: admin/tabs.php:259
+msgid "Pagination"
+msgstr "באמצעות דיפדוף"
+
+#: admin/tabs.php:264
+msgid "Infinite scrolling"
+msgstr "בעת גלילה לתחתית הרשימה (אוטומטית)"
+
+#: admin/tabs.php:269
+msgid "Dedicated button"
+msgstr "יזומה (כפתור טעינה)"
+
+#: admin/tabs.php:273
+msgid "Quick View"
+msgstr "מבט מהיר"
+
+#: admin/tabs.php:276
+msgid "Enable Product \"Quick View\""
+msgstr "הצגת \"מבט מהיר\" בגריד מוצרים"
+
+#: admin/tabs.php:280
+msgid "Enable Product \"Mini Quick View\""
+msgstr "הצגת \"מיני מבט מהיר\" בגריד מוצרים"
+
+#: admin/tabs.php:285
+msgid "Product Filtering"
+msgstr "סינון מוצרים"
+
+#: admin/tabs.php:287
+msgid "Enable Top Product filtering"
+msgstr "הצגת סינון עליון"
+
+#: admin/tabs.php:292
+msgid "Sidebar"
+msgstr "סרגל צדדי"
+
+#: admin/tabs.php:295
+msgid "Show on Products grid page"
+msgstr "הצגת סרגל בגריד מוצרים"
+
+#: admin/tabs.php:299
+msgid "Show on Product pages"
+msgstr "הצגת סרגל בדף מוצר"
+
+#: admin/tabs.php:303
+msgid "Show on Shop main page"
+msgstr "הצגת סרגל צד בדף חנות ראשי"
+
+#: admin/tabs.php:315
+msgid "SEO"
+msgstr "קידום"
+
+#: admin/tabs.php:317
+msgid "Force rewrite titles"
+msgstr "שכתוב כותרות"
+
+#: admin/tabs.php:320
+msgid ""
+"Set HTML Title for Products page (Template: Website Name | Category Name)"
+msgstr "עדכון כותרת HTML עבור דף מוצרים (מבנה: שם אתר | שם קטגוריה)"
+
+#: admin/tabs.php:324
+msgid ""
+"Set HTML Title for Single product pages (Template: Website Name | Product "
+"Name)"
+msgstr "עדכון כותרת HTML עבור דף מוצר (מבנה: שם אתר | שם מוצר)"
+
+#: admin/tabs.php:329
+msgid ""
+"Product URL - Append product Name to product Key (Template: ../products/"
+"key**name)"
+msgstr "כתובת דף מוצר - הוספת שם מוצר למפתח מוצר (מבנה:  ../מוצרים/מפתח**שם)"
+
+#: admin/tabs.php:334
+msgid "Add product Description to HTML Meta description tag"
+msgstr "הוספת תיאור מוצר לתגית  HTML Meta description"
+
+#: admin/tabs.php:339
+msgid "Add Open Graph Tags to product page"
+msgstr "הוספת תגיות Open Graph לדף מוצר"
+
+#: admin/tabs.php:349
+msgid "Customers"
+msgstr "לקוחות"
+
+#: admin/tabs.php:350
+msgid "Enter text for customer login links in the following elements."
+msgstr "ניתן להזין את המלל שיופיע בקישור התחברות הלקוחות השונים במקומות הבאים."
+
+#: admin/tabs.php:366
+msgid "B2C Customers"
+msgstr "לקוחות פרטיים (B2C)"
+
+#: admin/tabs.php:372 admin/tabs.php:406 admin/tabs.php:436
+msgid "Menu Link"
+msgstr "לינק בתפריט"
+
+#: admin/tabs.php:381 admin/tabs.php:414
+msgid "Checkout Page"
+msgstr "עמוד רכישה"
+
+#: admin/tabs.php:390 admin/tabs.php:422
+msgid "Donation Page"
+msgstr "עמוד תרומה"
+
+#: admin/tabs.php:400
+msgid "B2B Customers"
+msgstr "לקוחות עסקיים (B2B)"
+
+#: admin/tabs.php:431
+msgid "Salespersons"
+msgstr "סוכנים"
+
+#: globals.php:33
+msgid "Hebrew"
+msgstr "עברית"
+
+#: globals.php:34
+msgid "English"
+msgstr "אנגלית"
+
+#: globals.php:37
+msgid "Grid"
+msgstr "גריד"
+
+#: globals.php:50
+msgid "WizShop - Hebrew Categories"
+msgstr "חנות וירטואלית - קטגוריות עברית"
+
+#: globals.php:51
+msgid "Hebrew Categories"
+msgstr "קטגוריות - עברית"
+
+#: globals.php:52
+msgid "Category"
+msgstr "קטגוריה"
+
+#: globals.php:61
+msgid "WizShop - English Categories"
+msgstr "חנות וירטואלית - קטגוריות אנגלית"
+
+#: globals.php:62
+msgid "English Categories"
+msgstr "קטגוריות - אנגלית"
+
+#: globals.php:68 globals.php:69
+msgid "WizShop"
+msgstr "חנות וירטואלית"
+
+#: globals.php:74 globals.php:75
+msgid "WizShop Components"
+msgstr "חנות וירטואלית - רכיבים"
+
+#: globals.php:85
+msgid "Product"
+msgstr "מוצר"
+
+#: globals.php:120
+msgid "Desktop"
+msgstr "מחשב שולחני"
+
+#: globals.php:121
+msgid "Tablet"
+msgstr "מחשב לוח"
+
+#: globals.php:122
+msgid "Mobile"
+msgstr "מכשיר נייד"
+
+#: menus.php:42
+msgid "Menu does not exist."
+msgstr "תפריט לא קיים."
+
+#: plugin.php:89
+msgid "You do not have sufficient permissions to access this page."
+msgstr "איך לך הרשאות גישה לדף המבוקש."
+
+#: plugin.php:187
+#, php-format
+msgid "Please update shop categories on %s options page."
+msgstr "נא לעדכן את הקטגוריות עבור חנות זו בדף %s."
+
+#: shop-api.php:95
+msgid "The Shop has been successfully detected by WizShop server."
+msgstr "החנות זוהתה בהצלחה ע\"י שרת החנויות."
+
+#: shop-api.php:171
+msgid "Failed to connect to WizShop server."
+msgstr "שגיאה בהתחברות לשרת החנויות."
+
+#: shop_widgets.php:7
+msgid "WizShop - Shopping cart"
+msgstr "חנות וירטואלית - סל קניות"
+
+#: shop_widgets.php:11
+msgid "Shopping Cart component"
+msgstr "רכיב סל קניות"
+
+#: shop_widgets.php:15
+msgid "Shopping cart"
+msgstr "סל קניות"
+
+#: shop_widgets.php:16 shop_widgets.php:42 shop_widgets.php:73
+#: shop_widgets.php:114 shop_widgets.php:150 shop_widgets.php:185
+#: shop_widgets.php:240 shop_widgets.php:289
+msgid "Title"
+msgstr "כותרת"
+
+#: shop_widgets.php:21 shop_widgets.php:52 shop_widgets.php:93
+#: shop_widgets.php:124 shop_widgets.php:160 shop_widgets.php:209
+#: shop_widgets.php:268 shop_widgets.php:294
+msgid "Hide on mobile devices"
+msgstr "הסתרה במכשירים ניידים"
+
+#: shop_widgets.php:33
+msgid "WizShop - Categories Tree"
+msgstr "חנות וירטואלית - עץ קטגוריות"
+
+#: shop_widgets.php:37
+msgid "Categories Tree component"
+msgstr "רכיב עץ קטגוריות"
+
+#: shop_widgets.php:41
+msgid "Categories tree"
+msgstr "עץ קטגוריות"
+
+#: shop_widgets.php:47
+msgid "Show category image"
+msgstr "הצגת תמונת קטגוריה"
+
+#: shop_widgets.php:64
+msgid "WizShop - Product Search"
+msgstr "חנות וירטואלית - חיפוש מוצרים"
+
+#: shop_widgets.php:68
+msgid "Product Search component"
+msgstr "רכיב חיפוש מוצרים"
+
+#: shop_widgets.php:72 template_loader.php:364
+msgid "Search"
+msgstr "חיפוש"
+
+#: shop_widgets.php:83
+msgid "Show suggestions list"
+msgstr "הצגת חלון הצעות"
+
+#: shop_widgets.php:88
+msgid "Show product image"
+msgstr "הצגת תמונת מוצר"
+
+#: shop_widgets.php:105
+msgid "WizShop - Sign In Private Customer"
+msgstr "חנות וירטואלית - כניסה למערכת לקוח פרטי"
+
+#: shop_widgets.php:109
+msgid "Sign In Private Customer omponent"
+msgstr "רכיב כניסה למערכת לקוח פרטי"
+
+#: shop_widgets.php:113
+msgid "Sign In Private Customer"
+msgstr "כניסה למערכת לקוח פרטי"
+
+#: shop_widgets.php:119 shop_widgets.php:155
+msgid "Hide when customer has already logged in"
+msgstr "הסתרה אם לקוח נכנס למערכת"
+
+#: shop_widgets.php:141
+msgid "WizShop - Sign In Business Customer"
+msgstr "חנות וירטואלית - כניסה למערכת לקוח עסקי"
+
+#: shop_widgets.php:145
+msgid "Sign In Business Customer component"
+msgstr "רכיב כניסה למערכת לקוח עסקי"
+
+#: shop_widgets.php:149
+msgid "Sign In Business Customer"
+msgstr "כניסה למערכת לקוח עסקי"
+
+#: shop_widgets.php:176
+msgid "WizShop - Products Filter"
+msgstr "חנות וירטואלית - סינון מוצרים"
+
+#: shop_widgets.php:180
+msgid "Products Filter component"
+msgstr "רכיב סינון מוצרים"
+
+#: shop_widgets.php:184
+msgid "Products Filter"
+msgstr "סינון מוצרים"
+
+#: shop_widgets.php:190
+msgid "Filter products for Grid with ID"
+msgstr "סינון מוצרים עבור גריד עם מזהה"
+
+#: shop_widgets.php:199
+msgid "Max number of properties (0 = unlimited)"
+msgstr "מספר מרבי של מאפיינים (0 = בלתי מוגבל)"
+
+#: shop_widgets.php:204
+msgid "Show properties with no values"
+msgstr "הצגת מאפיינים ללא ערכים"
+
+#: shop_widgets.php:231
+msgid "WizShop - Products List"
+msgstr "חנות וירטואלית - רשימת מוצרים"
+
+#: shop_widgets.php:235
+msgid "Products List for Category/Query component"
+msgstr "רכיב רשימת מוצרים לקטגוריה / שאילתת חיפוש"
+
+#: shop_widgets.php:245
+msgid "List product by:"
+msgstr "יצירת רשימה מוצרים לפי:"
+
+#: shop_widgets.php:246
+msgid "Category key"
+msgstr "מפתח קטגוריה"
+
+#: shop_widgets.php:247
+msgid "Search query"
+msgstr "שאילתת חיפוש"
+
+#: shop_widgets.php:252
+msgid "Category key / Search query"
+msgstr "מפתח קטגוריה / שאילתת חיפוש"
+
+#: shop_widgets.php:263
+msgid "Max number of products (0 = use default)"
+msgstr "מספר מרבי של מוצרים  (0 = ברירת מחדל לסוג תצוגה)"
+
+#: shop_widgets.php:280
+msgid "WizShop - Newsletters"
+msgstr "חנות וירטואלית - הרשמה לניוזלטר"
+
+#: shop_widgets.php:284
+msgid "Newsletters registration component"
+msgstr "רכיב הרשמה לניוזלטר"
+
+#: template_loader.php:95 template_loader.php:293
+msgid "Create account"
+msgstr "הרשמה"
+
+#~ msgid "Shop ID was not provided."
+#~ msgstr "לא עודכן מזהה חנות."
+
+#~ msgid "Agents"
+#~ msgstr "סוכנים"
+
+#~ msgid "A guide on adding additional images"
+#~ msgstr "תיעוד בנושא העלאה ואחסון  תמונות באמצעות המדיה של וורדפרס"

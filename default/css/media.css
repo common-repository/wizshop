@@ -1,0 +1,142 @@
+@media (max-width: 1200px) {}
+/*
+@media (max-width: 992px) {
+    #breadcrumbs, .speedbar-btns {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .speedbar-btns {
+        width: 100%;
+    }
+	*/
+/* ==================== Last Price */
+.last-price-box-wrapper {
+	 position: static;
+}
+.last-price-box 
+{
+   box-shadow:none;
+     border:none;
+	 width: 100%;
+}
+
+}
+
+@media (max-width: 576px) {
+    /* ====================  Discount label */
+    .discount-label {
+        top: 5px;
+        left: 5px;
+        border-radius: 46px;
+        font-size: 16px;
+	
+    }
+
+    .price-mobile-align {
+        text-align: right;
+    }
+}
+@media (min-width: 767px){
+	.show-xs {
+	display: none!important;
+	}
+	.acc {
+    max-width: calc(100% / 5);
+}
+}
+@media (max-width: 767px){
+	.hide-xs {
+	display: none!important;
+	}
+.heart-container .svg-btn {
+    position: relative;
+ text-align: right;
+}
+.mxw-auto-xs
+{
+	max-width:initial !important;
+}
+.mxw-100-xs
+{
+	max-width:100% !important;
+}
+.mxw-75-xs
+{
+	max-width:75% !important;
+}
+.text-right-xs {
+	text-align: right;
+}
+.text-left-xs {
+	text-align: left;
+}
+.text-center-xs {
+	text-align: center;
+}
+}
+
+ /* ====================  all reponsive tables */
+
+@media 
+only screen and (max-width: 760px)  {
+
+	/* Force table to not be like tables anymore */
+	.responsive-table, .responsive-table thead, .responsive-table tbody, .responsive-table th, .responsive-table td, .responsive-table tr {
+		display: block;
+	}
+	
+	/* Hide table headers (but not display: none;, for accessibility) */
+ .responsive-table thead tr { 
+		position: absolute;
+		top: -9999px;
+		right: -9999px;
+	}
+	
+	
+	
+	.responsive-table td { 
+		/* Behave  like a "row" */
+		border: none;
+		position: relative;
+		padding-right: 30%;
+		max-width: 100%; 
+		width: 100% !important;
+		text-align: right!important;
+		
+	}
+	.responsive-table.no-titles td { 
+		padding-right: 1.5rem;
+	}
+	
+	
+	
+	.responsive-table td:before { 
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		right: 6px;
+		width: 25%; 
+		padding-left: 10px; 
+		white-space: nowrap;
+	}
+
+
+
+[data-wiz-cart-actions] td:before {
+    content: "";
+}
+
+
+	/*
+	Label the data
+	*/
+.responsive-table tr td::before {
+    content: attr(data-title);
+}
+
+}
+
+

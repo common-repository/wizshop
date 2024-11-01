@@ -1,0 +1,1299 @@
+.v_ihide, .v_iHide, .hide0, .hiderev1 {display:none !important;}
+
+/************************************************************************************************************************
+Errors
+************************************************************************************************************************/
+
+[data-wiz-status-text].v_empty:before{ content: 'נתונים חסרים: '; }
+[data-wiz-status-text].v_invalid:before{ content: 'נתונים שגויים: '; }
+[data-wiz-status-text].v_error:before{ content: 'שגיאה: '; }
+[data-wiz-status-text].v_ok:before{ content: 'הפעולה הסתיימה בהצלחה'; }
+[data-wiz-status-text].add-to-cart.api_stat_OK:before {content: 'הפריט נוסף לסל הקניות שלך';}
+[data-wiz-status-text].add-to-cart.api_stat_OK_Q:before {content: 'הפריט נוסף לסל הקניות, הכמות עודכנה בהתאם למלאי';}
+[data-wiz-status-text].itemtocartstatus.v_ok:before {content: 'הפריט נוסף לסל הקניות שלך';}
+[data-wiz-status-text].updatecart.v_ok:before { content: 'הסל עודכן בהצלחה';}
+[data-wiz-status-text].emptycart.v_ok:before { content: 'הסל רוקן בהצלחה'; }
+[data-wiz-status-text].deleteitem.v_ok:before {  content: 'הפריט נמחק מהסל'; }
+[data-wiz-status-text].pass_3.v_error:before { content: 'שגיאה: '; }
+[data-wiz-status-text].pass_3.v_ok:before { content: 'סיסמא נשלחה'; }
+[data-wiz-status-text].read_policy_p:before{ content: 'נא לאשר את תקנון החנות'; }
+
+[data-wiz-status-text].wishlist.v_ok:before{ content: 'הפריט עבר לרשימת המשאלות'; }
+[data-wiz-status-text].v_ok.delete:before { content: 'הפריט הוסר מסל הקניות'; }
+/* item status */
+.v_iSale:before { content: 'מבצע'; }
+.v_istat3:before { content: 'פריט לא פעיל';  }
+.v_istat4:before{ content: 'נא פנו אלינו לביצוע הזמנה';  }
+.v_istat5:before { content: 'לא נקבע מחיר לפריט';  }
+.v_istat6:before{ content: 'פריט לא נמצא ברשימת המוצרים';  }
+.v_istat7:before{ content: 'פריט לא במלאי';  }
+.v_istat8:before{ content: 'פריט לא נמצא ברשימת המוצרים';  }
+
+/* send info about cart */
+[data-wiz-status-text].send_cart_p.v_empty:before{ content: 'נתונים חסרים: '; }
+[data-wiz-status-text].send_cart_p.v_invalid:before  { content: 'נתונים שגויים: '; }
+[data-wiz-status-text].send_cart_p.v_error:before{ content: 'שגיאה: '; }
+[data-wiz-status-text].send_cart_p.v_ok:before { content: 'תודה על פנייתך, מספר פנייה:'; }
+.hesh-to-cart.v_error:before { content: "המוצרים הבאים לא עברו לסל: ";}
+.v_field_err {
+    border: 1px solid red !important;
+}
+
+/* donations */
+.donations-msg.api_stat_22:after {content: "יש להזין את סכום התרומה";}
+.donations-msg.api_stat_24:after {content: "לא ניתן לשנות את כתובת המייל בשלב זה";}
+.donations-msg.api_stat_107:after {content: "שימו לב, תרומות בשקלים ניתן לבצע רק מישראל, מכל מדינה אחרת יש לתרום בדולרים";}
+.donations-msg.api_stat_2:after {content: "המייל הזה כבר קיים במערכת, בבקשה תתחברו";}
+.donations-msg.api_stat_18:after {content: "הכתובת מייל שהזנת לא תקינה";}
+.donations-msg.api_stat_13:after {content: "האורך הכולל של הכתובת גדול מדי. יש להקטין את הטקסט בשדות עיר / איזור / מיקוד";}
+.donations-msg.api_stat_100:after {content: "האתר אינו פעיל כעת";}
+.donations-msg.api_stat_101:after {content: "הפעולה אינה נתמכת בחנות זו";}
+.donations-msg.api_stat_109:after {content: "מספר התשלומים אינו תקין";}
+.donations-msg.api_stat_200:after {content: "שגיאה כללית, יש לפנות למנהל האתר";}
+.donations-msg[api-status^='c']:after {content: "ישנה תקלה במסוף האשראי, לצערנו התרומה לא נקלטה";}
+.donations-msg.v_empty:before {content: "יש למלא את השדות הבאים: ";}
+.donations-alert.api_stat_OK_cp { display: none;}
+
+.v_empty_cp, 
+.v_error_cp, 
+.v_invalid_cp,
+.donations-alert
+ {
+    background: #e69e9e;
+    border-top: 2px solid #8f1333;
+    color: white;
+}
+.v_ok_cp, .api_stat_OK_Q_cp, .api_stat_OK_cp{
+    background: #d8f9d8;
+    border-top: 2px solid green;
+}
+
+.v_ok_cp span {
+    line-height: 40px;
+}
+.basket-add-message a.see-cart,
+.donations-login .no-user {
+    display: none;
+}
+.single_item_message .add-to-cart + a.see-cart,
+.donations-login.v_error_cp .no-user {
+    display: initial;
+}
+.basket-add-message a.update-info,
+.donations-login.v_error_cp [data-wiz-status-text] {
+	display:none;
+}
+.basket-add-message.v_error_cp .send_cart_p + a.update-info {
+	display:initial;
+}
+/* ==================== Alerts */
+[data-wiz-status-report].v_ok {
+    border: 1px solid #ddeed4;
+    background-color: #dff0d8;
+    color: #68915d;
+    border-radius: 3px;
+}
+
+[data-wiz-status-report].v_ok > a {
+    color: darkslategray;
+}
+/* ==================== Tweaks */
+
+
+/* ==================== Icons */
+.basket-table .svg-icon {
+	height: 17px;
+}
+.speedbar-block .svg-icon {
+	width: 18px;
+}
+.agent-icons .svg-icon {
+    height: 20px;
+    vertical-align: top;
+}
+.short-basket .svg-icon,
+.mini-cart-container .svg-icon,
+.cart-widget .svg-icon  {
+	min-width: 16px;
+	width: 16px;
+}
+.pagi-btn .svg-icon {
+    height: 14px;
+    vertical-align: -webkit-baseline-middle;
+}
+.svg-icon.info {
+	width: 25px; 
+}
+.quickview-close-button .svg-icon {
+    width: 20px;
+}
+.svg-icon.search-icon{
+	width: 15px;
+}
+.mini-alert .svg-icon {
+    width: 13px;
+    height: 13px;
+    margin-bottom: 5px;
+}
+.svg-btn .svg-icon {
+    max-height: 20px;
+}
+.heart-container {
+    position: relative;
+}
+
+.heart-container .svg-btn {
+    position: absolute;
+    top: 0;
+}
+/* ==================== Display options */
+.vshop-body .dsp-block, 
+.dsp-block {
+    display: block;
+}
+
+.dsp-none {
+    display: none;
+}
+
+.dsp-inlineblock {
+    display: inline-block;
+}
+
+.dsp-inline {
+    display: inline;
+}
+.dsp-flex {
+    display: flex
+}
+/* flex basis */
+.flex-basis-4
+{ 
+flex-basis: 33%;
+}
+/* ==================== Alignment */
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+/* ==================== Borders */
+.border-none {
+    border: none !important;
+}
+.b-1 { 
+	border: 1px solid; 
+}
+.bb {
+	border-bottom: 1px solid;
+	border-color: initial;
+}
+.bt {
+	border-top: 1px solid;
+	border-color: initial;
+}
+/* ==================== background */
+.bg-gray{
+}
+/* ==================== Text */
+.td-none { 
+	text-decoration: none;
+}
+.td-u {
+	text-decoration: underline;
+}
+/* ==================== Floating */
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: left;
+}
+
+.clr {
+    clear: both;
+}
+.ltr { 
+direction: ltr; 
+}
+/* ==================== Default button style */
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.10rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+/* Primary button */
+.btn.primary, .btn.v_iselect {
+    background-color: #0000fe;
+    color: #FFFFFF;
+}
+.btn.primary-icon {
+    fill: white;
+}
+
+/* Primary outline button */
+.btn.primary-outline {
+    border: 1px solid #0000fe;
+    color: #0000fe;
+	background:white; 
+}
+
+.btn.primary-outline:hover {
+    background-color: #0054fe;
+    border: 1px solid #0054fe;
+    color: #FFFFFF;
+}
+
+/* Success button */
+.btn.success {
+    background-color: #34a94e;
+    color: #FFFFFF;
+}
+
+.btn.success:hover {
+    background-color: #39b855;
+}
+.v_ihide.disp-v_istat7.matrix0 {
+    display: initial !important;
+}
+/* Disabled button */
+.btn.disabled, 
+.v_ihide.matrix1 .btn:not(.wlv_istat7), 
+.v_ihide.matrix2 .btn:not(.wlv_istat7),
+.disp-v_istat7.matrix0 .btn:not(.wlv_istat7), 
+.btn[disabled]
+ {
+    background: #eeeeee;
+    cursor: pointer;
+    pointer-events: none;
+    color: gray;
+    border: 1px solid gray;
+}
+/* link */
+.link { 
+text-decoration: underline; 
+cursor: pointer;
+}
+.extra-label {
+    position: absolute;
+    left: 7px;
+    top: 0;
+    font-size: 0.8em;
+}
+/* show relevant buttons in grid */
+
+.btn.grid-matrix0,
+.grid-v_istat7 .btn:not(.quick-view),
+.grid-v_istat11 .btn:not(.quick-view),
+.btn.grid-more-info,
+.btn.grid-matrix1 + .btn.to-cart, 
+.btn.grid-matrix2 + .btn.to-cart {
+    display: none;
+}
+.btn.grid-matrix1, 
+.btn.grid-matrix2,
+.grid-v_istat7 .btn.grid-more-info, 
+.grid-v_istat11 .btn.heshv_istat11 {
+    display: block;
+}
+
+
+/* show relevant buttons in lines + tables */
+.hesh-cont {
+    display: none;
+}
+
+.hesh-cont.lines-v_istat11 {
+    display: initial;
+}
+/* show relevant buttons on product-item */
+.btn-contact {
+	display:none;
+}
+.btn-v_istat4 {
+    display: initial;
+}
+/* ==================== Sub categories */
+.sub-cats-grid[wiz_count="0"]
+{
+	display:none;
+}
+
+/* ==================== Products title in grid view */
+.product-title a {
+    color: #2c4482;
+}
+
+/* Type of view bar */
+.view-typebar {
+}
+
+/* Change view bar icons */
+.view-typebar-icon {
+    width: 14px;
+    height: 14px;
+    /*padding-top: 5px;*/
+    pointer-events: none;
+}
+
+/* Fill icon with color */
+.view-typebar-icon path {
+    fill: #FFFFFF;
+}
+
+.view-typebar-btn {
+    padding: 0px 7px 3px 7px !important;
+    height: 30px;
+    line-height: 30px;
+}
+.view-typebar-btn {
+    background: #A9A8A9;
+	border-color:#A9A8A9;
+}
+/* ==================== Each product */
+.each-product {
+    position: relative;
+}
+
+/* Drop shadow in grid view per img */
+.each-product img {
+    box-shadow: 0px 3px 3px #e3e3e3;
+}
+/* Mini quick-view  in grid view */
+.mini-quick-view { 
+display: none; 
+}
+.grid-link:hover .mini-quick-view  {
+    display: initial;
+}
+/* ====================  Discount label */
+.discount-label {
+       position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #e61c28;
+    color: #FFF;
+    font-weight: normal;
+    border-radius: 46px;
+    transform: rotate(-45deg);
+    font-size: 17px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+}
+
+/* Discount label in rows view */
+.discount-label-rows {
+    left: 5%;
+	    width: 40px;
+    height: 40px;
+    font-size: 9px;
+	line-height: 40px;
+}
+
+/* Discount label in list view */
+.discount-label-list {
+    top: 2px;
+    left: 2px;
+     width: 35px;
+    height: 35px;
+    font-size: 10px;
+	line-height: 35px;
+}
+
+.speedbar-block {
+    border: 1px solid #a3a3a3;
+    padding: 2px;
+    display: inline-block;
+}
+
+/* Pagination buttons */
+.pagi-btn {
+    padding: 0.275rem 0.55rem;
+}
+
+/* Dementions for pagination icons */
+.pagi-icons {
+    width: 15px;
+    height: 20px;
+    pointer-events: none;
+}
+
+/* Fill pagination icons with color */
+.pagi-icons path {
+    fill: #e62e38 !important;
+}
+
+/* Pagination icon buttons */
+.pagi-arrow-btn {
+    height: 38px;
+    padding-top: 8px;
+    color: #e62e38;
+}
+
+/* Change color for correct page */
+a[data-wiz-cur-page], span[data-wiz-cur-page] {
+    color: #e62e38;
+}
+
+/* Select input height */
+select[data-wiz-sort-ex-method] {
+    height: 28px;
+	padding: 0.25rem !important;
+}
+
+
+/* ==================== Products */
+/* Select box in each product */
+.product-demselect {
+    height: 38px;
+    min-width: 100px;
+}
+/*Show acc to cart button even if there's a matrix (disabled) */
+.v_ihide.matrix1, .v_ihide.matrix2 { 
+display: block !important; 	
+}
+/* Product price block */
+.price-block {
+    min-width: 120px;
+}
+
+/* Product discount label */
+.price-label {
+    padding: 0.375rem 0;
+}
+
+/* Product price input */
+.price-input {
+    width: 60px !important;
+    padding: 0.375rem !important;
+}
+
+/* Product price color */
+.price-color {
+    color: #2c4482;
+}
+/* Product price hiding vat when there's no price */
+[data-wiz-item-price].v_ihide + .hide1 {
+    display: none;
+}
+/* Product description */
+.product-description {
+    color: #999999;
+}
+
+/* Product picklist package options icon */
+.packages-options-icon {
+    width: 12px;
+    height: 12px;
+}
+
+.grid-vat {
+    color: #2c4482;
+    font-weight: bold;
+    font-size: 0.8em;
+}
+/* ==================== Product Packages */
+
+/* Hide the label if there's only singles */
+.Packsv_ihide > label {
+    display: none;
+}
+.product-quantity label {
+    display: block;
+	font-size: 0.75em;
+}
+/* ==================== Table layouts */
+.layout-auto {
+    table-layout: auto;
+}
+/* ==================== Product properties table */
+.properties-table {
+    table-layout: auto;
+}
+
+/* Product properties table parameter */
+.properties-table .param {
+    width: 33%;
+}
+
+/* Product properties table value */
+.properties-table .value {
+    width: 67%;
+}
+
+/* Product properties table first column */
+.properties-table > tbody > tr > td:first-child {
+    background-color: #f9f9f9;
+}
+
+/* =============== Product pick-list table */
+.product-picklist {
+    table-layout: auto;
+	border-collapse:collapse;
+}
+
+/* Disable border entire all table */
+.product-picklist, 
+.product-picklist td {
+    border:none;
+}
+
+/* Bordering table rows */
+.product-picklist  td {
+    border-bottom: 1px solid #e3e3e3;
+}
+
+.product-picklist tr:first-child td {
+    border-top: 1px solid #e3e3e3;
+}
+
+
+.product-picklist thead {
+    color: #1c2864;
+    font-size: x-large;
+}
+
+.product-picklist thead tr th {
+    font-weight: normal;
+}
+
+.product-picklist .img-col {
+    width: 10%;
+}
+
+.product-picklist .description {
+    width: 50%;
+}
+
+.product-picklist .refid {
+    width: 40%;
+}
+
+.tree-title {
+    color: #1c2864;
+    font-size: x-large;
+    font-weight: normal;
+}
+
+.tree-border {
+    border: 1px solid #e3e3e3;
+    border-bottom: none;
+}
+
+.tree-border:last-child {
+    border-bottom: 1px solid #e3e3e3;
+}
+
+.tree-eachitem-title {
+    line-height: 1.4;
+}
+
+.tree-eachitem-title a {
+    color: #4c4c4c;
+    font-size: 16px;
+}
+
+/* Gallery Links */
+.blueimp-gallery > .description {
+    position: absolute;
+    top: 30px;
+    left: 15px;
+    color: #fff;
+    display: none;
+}
+.blueimp-gallery-controls > .description {
+    display: block;
+}
+
+/* Short basket block */
+.short-basket {
+    background-color: #f8f8f8;
+    border: 1px solid #656565;
+}
+
+/* Order table remove all borders */
+.table-nodorder, .table-nodorder tr, .table-nodorder tr td, .table-nodorder tr th {
+    border: none;
+
+}
+.table-bb tr td { 
+    border-bottom: 1px solid;
+    border-color: initial;
+}
+
+.table-nodorder tr td a {
+    text-decoration: none !important;
+    color: inherit;
+}
+/* password box in checkout-final */
+
+.password-info {
+    font-size: small;
+    color: green;
+    line-height: 1em;
+}
+.password-container {
+	background: #F3F3F3;
+}
+.showpass {
+    cursor: pointer;
+}
+/* Style the collapsible content. Note: hidden by default */
+.collappse-block {
+    display: none;
+}
+
+.purchase-title {
+    background-color: #656565;
+    padding: 10px;
+    color: white;
+	font-size: 16px !important;
+}
+
+.purchase-title-disabled, .purchase-title.title-off {
+    background-color: #d3d3d3;
+    color: white;
+    padding: 10px;
+	margin-top: 1em;
+    margin-bottom: 0em !important;
+}
+
+.dotter-outline {
+    border: 1px solid #0000fe;
+    color: #c0c0ff;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 22px;
+    padding-top: 1px;
+    margin: 0 auto;
+}
+
+.dotter {
+    background-color: #0000fe;
+    color: white;
+}
+
+.dotter-desc {
+    font-size: 12px;
+    color: gray;
+}
+
+.dotter-line {
+    margin-top: 20px;
+    width: 200px;
+}
+.row, #step_1, #step_2
+{ 
+	outline: none;
+}
+
+.basket-table tr, .basket-table th, .basket-table td {
+    border: none;
+}
+
+.basket-table:not(.basket-flex) {
+    border: 1px solid #e8e8e8;
+	table-layout: auto;
+}
+
+.basket-table th {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.basket-thead {
+    background-color: #f8f8f8;
+}
+
+.basket-table td {
+    max-width: calc(100% / 10);
+}
+.basket-table:not(.basket-flex) .product-name {
+	width: 20%;
+}
+.basket-table:not(.basket-flex) .product-remark{ 
+width: 20%; 
+}
+.basket-table:not(.basket-flex) .product-quantity {
+    width: 10%;
+}
+.basket-table:not(.basket-flex) td.product-quantity input {
+    max-width: 80px;
+}
+.basket-table td {
+    border-bottom: 1px solid #dadada;
+	vertical-align: middle;
+}
+/* flex table */
+.basket-flex .basket-row {
+    border-bottom: 1px solid #e8e8e8;
+}
+table:not(.basket-flex) .basket-amouth {
+    background-color: lightgray;
+    display: inline-block;
+    padding: 2px 12px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.basket-del {
+    text-decoration: none;
+    padding: 5px;
+}
+
+.basket-times {
+    width: 15px;
+    height: 15px;
+    fill: red;
+    text-decoration: none;
+    transition: fill ease-in-out 0.2s;
+}
+
+.basket-del:hover > .basket-times {
+    fill: darkred;
+}
+
+.basket-fav {
+    padding: 5px;
+    text-decoration: none;
+}
+
+.basket-heart {
+    width: 15px;
+    height: 15px;
+    fill: blue;
+    text-decoration: none;
+    transition: fill ease-in-out 0.2s;
+}
+
+.basket-dismiss-btn {
+    height: 20px;
+}
+
+.basket-dismiss-icon {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+.empty-basket {
+    display: none !important;
+}
+.v_cart.v_ihide ~ .empty-basket,
+[data-wiz-customers][wiz_count='0'] ~ .empty-basket
+ {
+    display: inherit !important;
+}
+
+.total-box {
+    border: 1px solid #656565;
+    background-color: #f8f8f8;
+    color: #656565;
+}
+
+.total-box > div  {
+    border-bottom: 1px solid #c1c1c1;
+    padding: 7px 0;
+}
+
+.total-box > div:last-child,
+.totals > div:last-child {
+    border-bottom: none;
+}
+.totals 
+{
+	background: #00000012;
+}
+.cat-name {
+    color: #21397f;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.cur-balance {
+	border: 1px solid #ed1c24;
+}
+/*.acc { 
+	position: relative;
+}
+.acc-box {
+	display:none;
+	border: 1px solid #808080;
+	position: absolute;
+	min-width: 400px;
+	top:50px;
+}
+.acc:last-child .acc-box {
+    left: 0;
+}*/
+.acc-boxes, .acc-box  {
+    background: #efefef;
+	position: relative;
+}
+td.CR {
+    text-align: left;
+}
+.rep-table-container 
+{
+	overflow-x: auto;
+}
+ .rep-table 
+{   
+	min-width: 800px;
+}
+
+.close-btn {
+    position: absolute;
+    left: 0.5em;
+    top: 0.5em;
+}
+/* ==================== Quick View */
+
+div#wiz-item-q-view {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.8);
+    z-index: 9999;
+   
+}
+
+
+.quickview-content {
+    background: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: 2px 8px 23px 3px rgba(0,0,0,.2);
+    box-shadow: 2px 8px 23px 3px rgba(0,0,0,.2);
+    overflow: hidden;
+    top: 0px;
+    left: 0px;
+}
+
+
+.quickview-item-wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 100%;
+    margin: auto;
+}
+
+.quickview-item {
+	background: white;
+    max-width: 80%;
+}
+.quickview-close-button a {
+    
+    top: 30px;
+    right: 30px; 
+    cursor: pointer;
+    position: absolute;    
+    z-index: 2;
+
+}
+
+
+/* ==================== Last Price */
+.last-price-box-wrapper {
+	 position: absolute;
+    z-index: 99;
+	top: 35%;
+}
+.last-price-box {
+    background: white;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.5);
+    max-width: 85%;
+	margin: 0px auto;
+	position: relative;
+}
+.OrderTypeMsg {
+    text-align: center;
+    border: none;
+    padding-top: 0.25rem;
+    line-height: 1.2em;
+	font-weight: normal;
+}
+.VSTitle {
+    text-align: center;
+}
+.last-price-title {
+	font-weight: bold; 
+}
+.OrderTypeMsg .last-price-title {
+	font-weight: normal;
+}
+.last-price-box div:not(:first-child):not(:last-child) .last-price-title {
+    width: 40%;
+	font-weight: bold;
+}
+.close-icon {
+    position: absolute;
+    left: -15px;
+    top: -30px;
+	color: red;
+}
+
+
+
+/* ==================== user area tabs */
+
+/*----- Tab Links -----*/
+
+.tab-links:after {
+	display:block;
+	clear:both;
+	content:'';
+}
+
+.tab-links .tab-item  {
+	position: relative;
+	display: block;
+	border: 1px solid #0000fe;
+	border-bottom: none;
+	margin-bottom: -1px;
+}
+
+.tab-links a {
+	position: relative;
+	display: block;
+}
+.tab-links a:focus {
+	outline:none;
+	box-shadow:none;
+}
+
+.tab-links a:hover {
+	background: #0000fe;
+	color: white;
+}
+
+.tab-links li.active a, .tab-links li.active a:hover {
+	background: #0000fe;
+	color: white;
+}
+
+/*----- Content of Tabs -----*/
+.tab {
+	display:none;
+	padding-top: 50px;
+	margin-top: -50px;
+	outline: none;
+}
+.tab.active {
+	display:block;
+}
+.tab-content .customers-header { 
+	display:none;
+}
+/************************* click-me  */
+.click-me-target {
+    display: none;
+}
+.click-me-target.active {
+    display: block !important;
+}
+
+/************************* checkout  */
+/* hide the currently shown cust-type */
+.cust-type.v_iselect {
+    display: none;
+}
+/* hide certain fields by default */
+.extraaddress, .wizfield-area, .wizfield-payoption
+{
+	display:none;
+}
+
+/************************* zip  */
+.zip-div
+{ 
+	position: relative;
+}
+.zip-link
+{
+	position: absolute;
+    font-size: 0.6em;
+    left: 5%;
+    top: 5%;
+}
+/*********** iframe */
+#VSCreditIframe {
+	border:none;
+}
+/************************* donations  */
+.ifdisabled[disabled] {
+	background:none;
+	border:none;
+	color: #0000fe;
+	padding-right:0px !important;
+	padding-left:0px !important;
+}
+.btn.ifdisabled[disabled]	{
+	display:none;
+}
+select.ifdisabled[disabled]::-ms-expan {
+	display:none;
+}
+select.ifdisabled[disabled]{
+     -moz-appearance: none;
+  -webkit-appearance: none;
+}
+.donations-description, .donfield-remark 
+{
+	display: none;
+}
+.login-box {
+	background-color: #f8f8f8;
+}
+/************************* widgets  */
+/* cart-widget */
+td.price {
+    min-width: 60px;
+}
+
+/* categories */
+.widget-catitems {
+    display: none;
+}
+
+.widget-catitems[wiz_index='0'] {
+    display: initial;
+}
+
+.v_iselect + .widget-catitems {
+    display: initial;
+}
+.widget-catitems .v_iselect > .sub-icon, 
+.notname.v_iclick > .sub-icon { 
+font-size: 0px;
+}
+.widget-catitems .v_iselect > .sub-icon:after,
+.notname.v_iclick > .sub-icon:after {
+    content: "-";
+    font-size:initial;
+}
+.widget-catitems {
+    list-style: none;
+}
+.widget-catitems[wiz_index="1"] li {
+    border: none;
+	border-top: 1px solid #c4c4c4;
+	padding-right: 0.5rem ;
+}
+
+.widget-catitems li {
+    border: 1px solid #c4c4c4;
+    border-top: none;
+    font-weight: bold;
+}
+
+.widget-catitems li:first-child {
+    border-top: 1px solid #c4c4c4;
+}
+.widget-catitems [wiz_index='1'] strong {
+    font-weight: normal;
+}
+.widget-catitems a.v_iselect {
+    text-decoration: underline;
+}
+.sub-icon {
+	color: white;
+    background: #0000fe;
+    border-radius: 200px;
+    width: 17px;
+    height: 17px;
+    line-height: 16px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+}
+button.sub-icon
+{
+    padding: 0;
+    width: 21px;
+    height: 21px;
+    line-height: 17px;
+     border: none;
+}
+.sub-icon.minus-icon
+{ 
+	font-size: 0px;
+}
+.sub-icon.minus-icon:after
+{ 
+	font-size: initial;
+	content: "-";
+}
+/* filter */
+.notevalue, .notname {
+	cursor:pointer;
+}
+.notevalue {
+    display: none;
+}
+
+.notname.v_iclick ~ .notevalue, .notevalue.v_iselect {
+    display: block;
+}
+.widget-filter-block > div {
+    border: 1px solid #c4c4c4;
+    border-bottom: none;
+}
+
+.widget-filter-block > div:nth-last-child(2) {
+    border-bottom: 1px solid #c4c4c4;
+}
+
+.widget-filter > div {
+    cursor: pointer;
+}
+
+.widget-filter > div:first-child {
+    font-weight: bold;
+    border-bottom: 1px solid #c4c4c4;
+}
+.notevalue:before{
+       content: "";
+    width: 14px;
+    height: 14px;
+    outline: 1px solid #0000fe;
+    display: inline-block;
+    margin-left: 5px;
+    vertical-align: sub;
+    background: white;
+    border: 7px solid white;
+}
+
+.notevalue.v_iselect:before {
+	border-width: 2px;
+    background: #0000fe;
+    font-weight: normal;
+}
+/* filter on top */
+.notevalue-top.v_iselect {
+    display: block;
+}
+
+.notevalue-top {
+    display: none;
+}
+.notevalue-top {
+    background: #b9b9b9;
+    color: white;
+	cursor: pointer;
+}
+.notevalue-top span {
+    color: red;
+}
+/* search */
+.search-cont {
+    position: relative;
+}
+
+.search-icon {
+    position: absolute;
+    left: 20px;
+    top: 5px;
+	cursor: pointer;
+}
+
+.auto-c {
+	max-height: 500px;
+    overflow: auto;
+	position: absolute;
+    z-index: 9999;
+	background: white;
+} 
+.auto-c[wiz_count='3'] {
+	background: white;
+    border: 1px solid;
+    border-color: initial;
+}
+
+/* menu - search */
+.searchform .auto-c, .searchform input { 
+	width: 200px;
+}
+.searchform .auto-c a {
+	white-space: initial;
+}
+.searchform .search-icon {
+	left: 3px;
+    top: 2px;
+}	
+/* menu - mini-cart */
+.mini-cart-container {
+    min-width: 300px !important;
+}
+.mini-cart-container td {
+	vertical-align: middle;
+}
+.thumb {
+    min-width: 80px;
+}
+.mini-cart-container td a {
+	line-height: 1.5em;
+}
+
+
+/* coupons */
+.coupon_status_-1 {
+    display: none;
+}
+.coupon-msg {
+	font-size: 12px;
+    font-weight: bold;
+}
+.coupon-msg.coupon_status_0:after {
+    content: "הקופון נקלט בהצלחה!";
+}
+.coupon-msg.coupon_status_1:after {
+    content: "מצטערים, קופון זה אינו תקף";
+    color: red;
+}
+.coupon-msg .og-status {
+	display:none;
+}

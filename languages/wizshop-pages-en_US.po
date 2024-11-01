@@ -1,0 +1,1108 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wizshop-pages\n"
+"POT-Creation-Date: 2020-08-05 10:06+0300\n"
+"PO-Revision-Date: 2020-08-05 10:06+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;esc_attr_e\n"
+"X-Poedit-SearchPath-0: include\n"
+"X-Poedit-SearchPath-1: components\n"
+"X-Poedit-SearchPath-2: widgets\n"
+"X-Poedit-SearchPath-3: default\n"
+
+#: components/customer-bar.php:8
+msgid "כניסת לקוחות"
+msgstr "Customers"
+
+#: components/customer-bar.php:9 components/customer-bar.php:29
+#: include/sign-in-b2b.php:53
+msgid "איזור אישי"
+msgstr "User Area"
+
+#: components/customer-bar.php:23 include/checkout-final.php:210
+#: include/customers-header.php:9 include/user-area.php:21
+#: include/user-details.php:153 widgets/newsletters-widget.php:21
+msgid "הרשמה"
+msgstr "Sign Up"
+
+#: components/customer-bar.php:26 include/agents.php:33
+#: include/checkout-final.php:108 include/sign-in-b2b.php:51
+#: include/user-area.php:8 widgets/sign-in-b2b-widget.php:42
+#: widgets/sign-in-widget.php:31
+msgid "שלום"
+msgstr "Hello"
+
+#: components/customer-bar.php:32 include/checkout-final.php:104
+#: include/sign-in-b2b.php:54 include/user-area.php:12
+#: widgets/sign-in-b2b-widget.php:50 widgets/sign-in-widget.php:37
+msgid "התנתקות"
+msgstr "Sign Out"
+
+#: components/mini-cart.php:5 components/mini-cart.php:42 include/agents.php:69
+#: widgets/cart-widget.php:40
+msgid "סל קניות"
+msgstr "Shopping Cart"
+
+#: components/mini-cart.php:27 include/checkout-final.php:418
+msgid "הסר פריט זה"
+msgstr "Delete"
+
+#: components/mini-cart.php:35 widgets/cart-widget.php:34
+msgid "הסל ריק"
+msgstr "The cart is empty"
+
+#: components/mini-cart.php:37 include/my-cart.php:69
+#: widgets/cart-widget.php:36
+msgid "סך הכל"
+msgstr "Total"
+
+#: components/mini-cart.php:45 include/my-cart.php:136
+#: widgets/cart-widget.php:43
+msgid "רכישה"
+msgstr "Checkout"
+
+#: include/agents.php:11
+msgid "פרטי התחברות הסוכן"
+msgstr "Salesperson log in"
+
+#: include/agents.php:16 include/agents.php:17 include/agents.php:61
+#: include/agents.php:62 include/agents.php:83 include/cart-call.php:24
+#: include/cart-call.php:25 include/checkout-final.php:35
+#: include/checkout-final.php:36 include/checkout-final.php:84
+#: include/checkout-final.php:85 include/donations.php:73
+#: include/donations.php:74 include/donations.php:122 include/donations.php:123
+#: include/sign-in-b2b.php:38 include/sign-in.php:19 include/sign-in.php:20
+#: include/user-details.php:26 include/user-details.php:27
+#: widgets/newsletters-widget.php:18 widgets/sign-in-b2b-widget.php:30
+#: widgets/sign-in-widget.php:16
+msgid "דואר אלקטרוני"
+msgstr "Email"
+
+#: include/agents.php:20 include/agents.php:21 include/checkout-final.php:39
+#: include/checkout-final.php:40 include/checkout-final.php:73
+#: include/checkout-final.php:74 include/checkout-final.php:197
+#: include/checkout-final.php:198 include/donations.php:77
+#: include/donations.php:78 include/donations.php:111 include/donations.php:112
+#: include/sign-in-b2b.php:27 include/sign-in-b2b.php:28 include/sign-in.php:23
+#: include/sign-in.php:24 include/user-details.php:133
+#: include/user-details.php:136 include/user-details.php:137
+#: widgets/sign-in-b2b-widget.php:20 widgets/sign-in-widget.php:19
+msgid "סיסמא"
+msgstr "Password"
+
+#: include/agents.php:24
+msgid "כניסת סוכן"
+msgstr "Sign in"
+
+#: include/agents.php:27 include/checkout-final.php:47 include/donations.php:85
+#: include/sign-in.php:31
+msgid "שכחתי סיסמא, אנא שלחו לי מייל שיחזור סיסמא"
+msgstr "I forgot my password, please email it to me"
+
+#: include/agents.php:35
+msgid "יציאה"
+msgstr "Sign Out"
+
+#: include/agents.php:38
+msgid "איתור לקוחות"
+msgstr "Find Customers"
+
+#: include/agents.php:43
+msgid "שם לקוח (לפחות 3 אותיות)"
+msgstr "Customer name (at least 3 characters)"
+
+#: include/agents.php:46
+msgid "שם לקוח"
+msgstr "Customer"
+
+#: include/agents.php:49
+msgid "חיפוש"
+msgstr "Search"
+
+#: include/agents.php:53
+msgid "הגדרות"
+msgstr "Settings"
+
+#: include/agents.php:54
+msgid "סינונים נוספים"
+msgstr "Additional Filters"
+
+#: include/agents.php:58 include/agents.php:59 include/agents.php:85
+#: include/checkout-final.php:153 include/checkout-final.php:154
+#: include/checkout-final.php:239 include/checkout-final.php:240
+#: include/donations.php:161 include/donations.php:162
+#: include/user-details.php:45 include/user-details.php:46
+#: include/user-details.php:97 include/user-details.php:98
+msgid "עיר"
+msgstr "City"
+
+#: include/agents.php:66
+msgid "דף פתיחה"
+msgstr "Open Page"
+
+#: include/agents.php:68 include/product-location.php:7
+msgid "ראשי"
+msgstr "Home Page"
+
+#: include/agents.php:70
+msgid "השאר בדף זה"
+msgstr "Stay on this page"
+
+#: include/agents.php:80 include/page-sort.php:7
+msgid "שם"
+msgstr "Item Name"
+
+#: include/agents.php:81 include/past-purchases.php:17
+#: include/permanent-cart.php:17 include/wish-list.php:17
+msgid "מפתח"
+msgstr "Key"
+
+#: include/agents.php:82
+msgid "מס טלפון"
+msgstr "Phone No."
+
+#: include/agents.php:84 include/cart-call.php:28 include/cart-call.php:29
+#: include/checkout-final.php:149 include/checkout-final.php:150
+#: include/checkout-final.php:235 include/checkout-final.php:236
+#: include/donations.php:153 include/donations.php:154
+#: include/user-details.php:41 include/user-details.php:42
+#: include/user-details.php:93 include/user-details.php:94
+msgid "כתובת"
+msgstr "Address"
+
+#: include/agents.php:86
+msgid "יתרה"
+msgstr "Balance"
+
+#: include/agents.php:99
+msgid "התחברות"
+msgstr "Log In"
+
+#: include/agents.php:104
+msgid "לא נמצאו לקוחות תואמים לחיפוש"
+msgstr "No customers were found"
+
+#: include/archive-product.php:30 include/search-product.php:14
+msgid "צורת תצוגה"
+msgstr "View"
+
+#: include/archive-product.php:32 include/search-product.php:16
+msgid "גלריה"
+msgstr "Gallery"
+
+#: include/archive-product.php:37 include/search-product.php:21
+msgid "טבלה"
+msgstr "Table"
+
+#: include/archive-product.php:42 include/search-product.php:26
+msgid "שורות"
+msgstr "Lines"
+
+#: include/cart-call.php:12
+msgid "אנא מלא/י את פרטי ההתקשרות שלך ונחזור אליך בהקדם"
+msgstr "Please fill in your information and we'll contact you"
+
+#: include/cart-call.php:16 include/cart-call.php:17
+#: include/checkout-final.php:228 include/user-details.php:22
+#: include/user-details.php:23 include/user-details.php:89
+#: include/user-details.php:90
+msgid "שם ומשפחה"
+msgstr "Full name"
+
+#: include/cart-call.php:20 include/cart-call.php:21
+#: include/checkout-final.php:138 include/checkout-final.php:139
+#: include/checkout-final.php:231 include/checkout-final.php:232
+#: include/donations.php:149 include/donations.php:150
+#: include/user-details.php:30 include/user-details.php:31
+#: include/user-details.php:115 include/user-details.php:116
+msgid "טלפון / נייד"
+msgstr "Phone \\ Mobile"
+
+#: include/cart-call.php:32 include/cart-call.php:33
+#: include/checkout-final.php:336 include/checkout-final.php:337
+#: include/donations.php:50 include/my-cart.php:73 include/user-details.php:70
+#: include/user-details.php:71
+msgid "הערה"
+msgstr "Remark"
+
+#: include/cart-call.php:36
+msgid "שליחה"
+msgstr "Send"
+
+#: include/cat-dir-child.php:6
+msgid "קטגוריות בקטגוריה זו"
+msgstr "Categories in this category"
+
+#: include/cat-filter.php:5
+msgid "סינון קטגוריות"
+msgstr "Filter by categories"
+
+#: include/cat-filter.php:10
+msgid "בחירה"
+msgstr "Select"
+
+#: include/cat-filter.php:23 include/items-filter-top.php:10
+msgid "סינון"
+msgstr "Filter"
+
+#: include/cat-filter.php:24 include/items-filter.php:11
+#: widgets/items-filter-widget.php:17
+msgid "הסרת סינון"
+msgstr "Remove filter"
+
+#: include/checkout-final.php:21 include/checkout-final.php:55
+#: include/donations.php:59 include/donations.php:93
+msgid "אנא התחברו"
+msgstr "Please Log In"
+
+#: include/checkout-final.php:43 include/checkout-final.php:77
+#: include/donations.php:81 include/donations.php:115
+#: include/sign-in-b2b.php:31 include/sign-in.php:27
+#: widgets/sign-in-b2b-widget.php:23 widgets/sign-in-widget.php:23
+msgid "כניסה"
+msgstr "Sign in"
+
+#: include/checkout-final.php:69 include/checkout-final.php:70
+#: include/donations.php:107 include/donations.php:108
+#: include/sign-in-b2b.php:23 include/sign-in-b2b.php:24
+#: widgets/sign-in-b2b-widget.php:17
+msgid "קוד משתמש"
+msgstr "Customer key"
+
+#: include/checkout-final.php:80 include/donations.php:118
+#: include/sign-in-b2b.php:34
+msgid "שכחתי סיסמא / אני רוכש בפעם הראשונה"
+msgstr "Forgot your password or first login?"
+
+#: include/checkout-final.php:89 include/donations.php:127
+#: include/sign-in-b2b.php:43 widgets/sign-in-b2b-widget.php:33
+msgid "שחזור סיסמא"
+msgstr "Send Password"
+
+#: include/checkout-final.php:100
+msgid "שלב 1"
+msgstr "Part 1"
+
+#: include/checkout-final.php:101
+msgid "אישור"
+msgstr "Confirm"
+
+#: include/checkout-final.php:101 include/donations.php:136
+msgid "פרטים אישיים"
+msgstr "Personal Information"
+
+#: include/checkout-final.php:129 include/checkout-final.php:130
+#: include/donations.php:140 include/donations.php:141
+#: widgets/sign-in-b2b-widget.php:30 widgets/sign-in-widget.php:16
+msgid "מייל"
+msgstr "Email"
+
+#: include/checkout-final.php:133 include/checkout-final.php:134
+#: include/checkout-final.php:227 include/donations.php:144
+#: include/donations.php:145
+msgid "שם מלא"
+msgstr "Full name"
+
+#: include/checkout-final.php:143 include/checkout-final.php:320
+#: include/checkout-final.php:374 include/user-details.php:35
+msgid "שיטת משלוח"
+msgstr "Shipping Method"
+
+#: include/checkout-final.php:158 include/checkout-final.php:159
+#: include/checkout-final.php:243 include/checkout-final.php:244
+#: include/donations.php:157 include/donations.php:158
+#: include/user-details.php:49 include/user-details.php:50
+#: include/user-details.php:101 include/user-details.php:102
+msgid "מיקוד"
+msgstr "Zip Code"
+
+#: include/checkout-final.php:160
+msgid "איתור מיקוד"
+msgstr "Locate Zip Code"
+
+#: include/checkout-final.php:163 include/checkout-final.php:164
+#: include/checkout-final.php:247 include/checkout-final.php:248
+#: include/donations.php:165 include/donations.php:166
+#: include/user-details.php:53 include/user-details.php:54
+#: include/user-details.php:105 include/user-details.php:106
+msgid "איזור"
+msgstr "Area"
+
+#: include/checkout-final.php:167 include/checkout-final.php:251
+#: include/donations.php:170 include/donations.php:177
+#: include/user-details.php:57 include/user-details.php:109
+msgid "מדינה"
+msgstr "Country"
+
+#: include/checkout-final.php:173
+msgid "אמצעי תשלום"
+msgstr "Method of payment"
+
+#: include/checkout-final.php:187
+msgid "שינוי סיסמא?"
+msgstr "Change Password?"
+
+#: include/checkout-final.php:189
+msgid "רוצים להירשם לאתר?"
+msgstr "Want to sign up?"
+
+#: include/checkout-final.php:195
+msgid ""
+"יש להגדיר סיסמא המכילה לפחות 6 תווים | הסיסמא חייבת להכיל שילוב של ספרות "
+"ואותיות באנגלית"
+msgstr ""
+"Password must be at least 6 characters | Password must include both English "
+"letters and numbers"
+
+#: include/checkout-final.php:201 include/checkout-final.php:202
+#: include/user-details.php:140 include/user-details.php:141
+msgid "סיסמא חדשה"
+msgstr "New Password"
+
+#: include/checkout-final.php:205 include/checkout-final.php:206
+#: include/user-details.php:144 include/user-details.php:145
+msgid "אימות סיסמא"
+msgstr "Confirm Password"
+
+#: include/checkout-final.php:209 include/user-details.php:148
+msgid "שינוי סיסמא"
+msgstr "Change Password"
+
+#: include/checkout-final.php:220 include/user-details.php:82
+msgid "האם לשלוח את החשבונית לכתובת אחרת?"
+msgstr "Send the invoice to a different address?"
+
+#: include/checkout-final.php:224 include/user-details.php:86
+msgid "כתובת לחשבונית (אם שונה מהכתובת לעיל)"
+msgstr "Billing Address (If different from the address above)"
+
+#: include/checkout-final.php:265 include/user-details.php:126
+#: widgets/newsletters-widget.php:25
+msgid "אני מאשר/ת קבלת חומר פירסומי וקופונים"
+msgstr "I agree to receive marketing and promotional materials via Email\v"
+
+#: include/checkout-final.php:269
+msgid "אפשר לשלוח לי חשבונית מס דיגיטלית במקום חשבונית מודפסת"
+msgstr "I agree to receive a digital invoice (instead of printed invoice)"
+
+#: include/checkout-final.php:274
+msgid "ניתן לבחור עלות ושיטת משלוח בשלב הבא"
+msgstr "You can select a shipping method in the next part"
+
+#: include/checkout-final.php:280 include/user-details.php:152
+msgid "אישור פרטים אישיים"
+msgstr "Confirm Personal Information"
+
+#: include/checkout-final.php:282
+msgid "המשך"
+msgstr "Continue"
+
+#: include/checkout-final.php:292
+msgid "שלב 2"
+msgstr "Part 2"
+
+#: include/checkout-final.php:295
+msgid "בחירת משלוח ו"
+msgstr "Shipping Method and "
+
+#: include/checkout-final.php:295
+msgid "תשלום"
+msgstr "Payment"
+
+#: include/checkout-final.php:309
+msgid "עדכון פרטים אישיים"
+msgstr "Change personal information"
+
+#: include/checkout-final.php:314
+msgid "תשלום באשראי"
+msgstr "Credit Card"
+
+#: include/checkout-final.php:316
+msgid "הזמנה ללא אשראי"
+msgstr "Place an order (no credit card)"
+
+#: include/checkout-final.php:326
+msgid "תאריך אספקה"
+msgstr "Delivery Date"
+
+#: include/checkout-final.php:330 include/checkout-final.php:377
+#: include/donations.php:191
+msgid "מספר תשלומים"
+msgstr "Number of payments"
+
+#: include/checkout-final.php:346
+msgid "שליחת אישור הזמנה לכתובת מייל נוספת"
+msgstr "Send order confirmation to another email address"
+
+#: include/checkout-final.php:351
+msgid ""
+"אני מאשר/ת שקראתי את <a href=\"/תקנון/\"  target=\"_blank\">תקנון האתר</a> "
+"ומסכים/ה."
+msgstr ""
+" I've read <a href=\"/policy/\"  target=\"_blank\">the site's policy </a> "
+"and accept its terms."
+
+#: include/checkout-final.php:354
+msgid "מעבר לתשלום מאובטח"
+msgstr "Continue to secure payment"
+
+#: include/checkout-final.php:359
+msgid "שליחת הזמנה"
+msgstr "Place Order"
+
+#: include/checkout-final.php:367
+msgid "הרכישה הושלמה בהצלחה"
+msgstr "Thank you for your order"
+
+#: include/checkout-final.php:369
+msgid "מספר הזמנה"
+msgstr "Order No."
+
+#: include/checkout-final.php:370 include/my-cart.php:22
+msgid "סה\"כ"
+msgstr "Total"
+
+#: include/checkout-final.php:373
+msgid "מחיר לפני משלוח"
+msgstr "Price before delivery fee"
+
+#: include/checkout-final.php:375
+msgid "עלות משלוח"
+msgstr "Delivery fee"
+
+#: include/checkout-final.php:378
+msgid "תשלומי קרדיט"
+msgstr "Payments (Credit)"
+
+#: include/checkout-final.php:380
+msgid "חברת אשראי"
+msgstr "Credit Company"
+
+#: include/checkout-final.php:381
+msgid "כרטיס אשראי"
+msgstr "Credit Card"
+
+#: include/checkout-final.php:393 include/my-cart.php:117
+msgid "סיכום הזמנה"
+msgstr "Order Summary"
+
+#: include/checkout-final.php:407 include/my-cart.php:61
+#: include/past-purchases.php:50 include/permanent-cart.php:50
+#: include/product-item.php:93 include/product-item.php:199
+#: include/product-item.php:260 include/product-item.php:322
+#: include/products-inner.php:152 include/products-inner.php:251
+#: include/quick-view.php:100 include/wish-list.php:52
+msgid "יחידות"
+msgstr "Units"
+
+#: include/checkout-final.php:411 include/my-cart.php:65
+#: include/past-purchases.php:54 include/permanent-cart.php:54
+#: include/product-item.php:99 include/product-item.php:205
+#: include/product-item.php:266 include/product-item.php:328
+#: include/products-inner.php:157 include/products-inner.php:256
+#: include/quick-view.php:106 include/wish-list.php:56
+msgid "אריזות של"
+msgstr "Packs of"
+
+#: include/checkout-final.php:426 include/my-cart.php:109
+msgid "ברשותך קוד קופון?"
+msgstr "Do you have a coupon?"
+
+#: include/checkout-final.php:428 include/my-cart.php:111
+msgid "הפעלת קופון"
+msgstr "Apply"
+
+#: include/checkout-final.php:435 include/my-cart.php:119
+msgid "סיכום ביניים"
+msgstr "Subtotal"
+
+#: include/checkout-final.php:435 include/checkout-final.php:438
+#: include/checkout-final.php:439 include/checkout-final.php:440
+#: include/my-cart.php:122 include/my-cart.php:123 include/my-cart.php:124
+#: include/product-item.php:64 include/quick-view.php:71
+msgid "(לפני מע\"מ)"
+msgstr "(Pre VAT)"
+
+#: include/checkout-final.php:436 include/my-cart.php:120
+msgid "שוברים והנחות"
+msgstr "Discounts"
+
+#: include/checkout-final.php:437 include/my-cart.php:121
+msgid "משלוח"
+msgstr "Delivery"
+
+#: include/checkout-final.php:438 include/my-cart.php:122
+msgid "סה\"כ לתשלום"
+msgstr "Total"
+
+#: include/checkout-final.php:439 include/my-cart.php:123
+msgid "סכום הקופון"
+msgstr "Coupon:"
+
+#: include/checkout-final.php:440 include/my-cart.php:124
+msgid "סכום לתשלום באשראי"
+msgstr "Total to pay"
+
+#: include/checkout-final.php:447 include/my-cart.php:145
+msgid "העגלה שלך ריקה כרגע"
+msgstr "Your cart is empty"
+
+#: include/checkout-final.php:448 include/my-cart.php:146
+msgid "חזרה לחנות"
+msgstr "Continue shopping"
+
+#: include/donations.php:29
+msgid "פרטי התרומה"
+msgstr "Donation"
+
+#: include/donations.php:33
+msgid "תרומה חד פעמית בסכום"
+msgstr "One time donation amount"
+
+#: include/donations.php:34 include/donations.php:190
+msgid "סכום התרומה"
+msgstr "Donation amount"
+
+#: include/donations.php:37
+msgid "מטבע"
+msgstr "Currency"
+
+#: include/donations.php:44
+msgid "תשלומים"
+msgstr "No. of Payments"
+
+#: include/donations.php:171
+msgid "הקלדת מדינה"
+msgstr "Type in country"
+
+#: include/donations.php:174
+msgid "בחירה מרשימה"
+msgstr "Select from a list"
+
+#: include/donations.php:181
+msgid "מעבר לתרומה"
+msgstr "Donate"
+
+#: include/donations.php:189
+msgid "תודה על תרומתך!"
+msgstr "Thank you for your donation!"
+
+#: include/lazy-navigation.php:12
+msgid "הציגו עוד"
+msgstr "Show more"
+
+#: include/lazy-navigation.php:15
+msgid "מוצרים בטעינה"
+msgstr "Items loading"
+
+#: include/my-cart.php:6
+msgid "לעדכון פרטים"
+msgstr "Update your information"
+
+#: include/my-cart.php:15 include/past-purchases.php:14
+#: include/permanent-cart.php:14 include/wish-list.php:14
+msgid "תמונה"
+msgstr "Image"
+
+#: include/my-cart.php:17
+msgid "שם המוצר"
+msgstr "Item"
+
+#: include/my-cart.php:18 include/product-item.php:49
+#: include/product-item.php:158 include/product-item.php:183
+#: include/product-item.php:243 include/product-item.php:306
+#: include/products-inner.php:131 include/products-inner.php:225
+#: include/quick-view.php:62
+msgid "מק\"ט"
+msgstr "Item Key"
+
+#: include/my-cart.php:19
+msgid "כמות במלאי"
+msgstr "Balance"
+
+#: include/my-cart.php:20 include/my-cart.php:55 include/page-sort.php:8
+#: include/past-purchases.php:19 include/past-purchases.php:44
+#: include/permanent-cart.php:19 include/permanent-cart.php:44
+#: include/reports-item.php:56 include/wish-list.php:19
+#: include/wish-list.php:46
+msgid "מחיר"
+msgstr "Price"
+
+#: include/my-cart.php:21 include/past-purchases.php:20
+#: include/permanent-cart.php:20 include/products-inner.php:133
+#: include/reports-item.php:64 include/wish-list.php:20
+msgid "כמות"
+msgstr "Quantity"
+
+#: include/my-cart.php:23
+msgid "הערה לפריט"
+msgstr "Item Remark"
+
+#: include/my-cart.php:51 include/past-purchases.php:18
+#: include/past-purchases.php:40 include/permanent-cart.php:18
+#: include/permanent-cart.php:40 include/product-item.php:67
+#: include/quick-view.php:74 include/wish-list.php:18 include/wish-list.php:42
+msgid "מלאי"
+msgstr "Balance"
+
+#: include/my-cart.php:77 include/products-inner.php:187
+#: include/user-area.php:23 include/user-area.php:35
+msgid "רשימת משאלות"
+msgstr "Wish List"
+
+#: include/my-cart.php:79
+msgid "העברה למועדפים"
+msgstr "Add to Wish List"
+
+#: include/my-cart.php:83
+msgid "מחיקה"
+msgstr "Delete"
+
+#: include/my-cart.php:85 include/permanent-cart.php:72
+#: include/wish-list.php:74
+msgid "הסרה"
+msgstr "Remove"
+
+#: include/my-cart.php:95
+msgid "המינימום להזמנה הוא"
+msgstr "The order minimum is"
+
+#: include/my-cart.php:103 include/my-cart.php:104
+msgid "אנא צרו איתי קשר בנושא סל הקניות שלי"
+msgstr "Please contact me about my shopping cart"
+
+#: include/my-cart.php:129
+msgid "בחירת משלוח מתבצעת בשלב הבא"
+msgstr "Select a Shipping Method on the next page"
+
+#: include/my-cart.php:130
+msgid "שינוי משלוח מתבצע בשלב הבא"
+msgstr "You can change the shipping method on the next page"
+
+#: include/my-cart.php:135
+msgid "ריקון סל קניות"
+msgstr "Empty shopping cart"
+
+#: include/page-items.php:6
+msgid "הצג"
+msgstr "Show"
+
+#: include/page-items.php:8
+msgid "הכל"
+msgstr "All"
+
+#: include/page-items.php:15
+msgid "מוצרים בעמוד"
+msgstr "items per page"
+
+#: include/page-items.php:17
+msgid "מתוך"
+msgstr "out of"
+
+#: include/page-navigation.php:9
+msgid "עמוד"
+msgstr "Page"
+
+#: include/past-purchases.php:16 include/permanent-cart.php:16
+#: include/wish-list.php:16
+msgid "מוצר"
+msgstr "Item"
+
+#: include/past-purchases.php:61 include/permanent-cart.php:61
+#: include/wish-list.php:63
+msgid "העברה לסל"
+msgstr "Add to Cart"
+
+#: include/past-purchases.php:66 include/past-purchases.php:83
+#: include/permanent-cart.php:66 include/permanent-cart.php:81
+#: include/product-item.php:10 include/product-item.php:115
+#: include/product-item.php:212 include/product-item.php:273
+#: include/product-item.php:335 include/products-inner.php:84
+#: include/products-inner.php:175 include/products-inner.php:274
+#: include/quick-view.php:24 include/quick-view.php:122
+#: include/wish-list.php:68
+msgid "הצגת סל"
+msgstr "Show cart"
+
+#: include/past-purchases.php:70 include/product-item.php:111
+#: include/quick-view.php:118
+msgid "העברה לסל קבוע"
+msgstr "Add to Default Order"
+
+#: include/past-purchases.php:74
+msgid "הצגת סל קבוע"
+msgstr "Show Default Order"
+
+#: include/past-purchases.php:82 include/permanent-cart.php:80
+msgid "הוספת רשימה לסל קניות"
+msgstr "Add list to cart"
+
+#: include/past-purchases.php:87
+msgid "לא בוצעו עדיין רכישות באתר."
+msgstr "Nothing has been purchased yet."
+
+#: include/past-purchases.php:88 include/wish-list.php:84
+msgid "לעמוד הראשי"
+msgstr "Back to home page"
+
+#: include/permanent-cart.php:85
+msgid "הסל הקבוע ריק כרגע"
+msgstr "Your Default Order is currently empty"
+
+#: include/permanent-cart.php:86
+msgid "ליצירת סל קבוע העבר פריטים מקניות קודמות"
+msgstr ""
+"To create your Default Order, select items from previous purchases list"
+
+#: include/permanent-cart.php:87
+msgid "לקניות קודמות"
+msgstr "Previous purchases"
+
+#: include/product-item.php:54 include/product-item.php:55
+msgid "נא פנו אלינו לביצוע הזמנה"
+msgstr "Please contact us to order"
+
+#: include/product-item.php:87 include/quick-view.php:94
+msgid "פריט זה מגיע"
+msgstr "This item is sold in"
+
+#: include/product-item.php:88 include/quick-view.php:95
+msgid "ביחידות ו"
+msgstr "Units and"
+
+#: include/product-item.php:88 include/quick-view.php:95
+msgid "אריזות"
+msgstr "Packages"
+
+#: include/product-item.php:105 include/product-item.php:192
+#: include/product-item.php:253 include/product-item.php:315
+#: include/quick-view.php:112
+msgid "הערה לפריט זה"
+msgstr "Item Remark"
+
+#: include/product-item.php:112 include/quick-view.php:119
+msgid "העברה לרשימת המשאלות"
+msgstr "Add to Wish List"
+
+#: include/product-item.php:114 include/quick-view.php:121
+msgid "הוספת הפריט לסל"
+msgstr "Add to Cart"
+
+#: include/product-item.php:124 include/product-item.php:138
+#: include/quick-view.php:131 include/quick-view.php:145
+msgid "נתונים כלליים"
+msgstr "Additional Information"
+
+#: include/product-item.php:152
+msgid "זהו פריט ערכה הכולל"
+msgstr "Included in set"
+
+#: include/product-item.php:166
+msgid "פריט משתתף בערכות הבאות"
+msgstr "This item is also a part of the following sets"
+
+#: include/product-item.php:211 include/product-item.php:272
+#: include/product-item.php:333 include/products-inner.php:76
+#: include/products-inner.php:173 include/products-inner.php:272
+msgid "הוספה לסל"
+msgstr "Add to Cart"
+
+#: include/product-item.php:223
+msgid "עץ חשבונית"
+msgstr "Items list"
+
+#: include/product-item.php:280
+msgid "הוספת כל הרשימה לסל"
+msgstr "Add list to cart"
+
+#: include/product-item.php:281
+msgid "הצגת הסל"
+msgstr "Show cart"
+
+#: include/product-item.php:287
+msgid "מוצרים משלימים"
+msgstr "You might also be interest in"
+
+#: include/product-item.php:334 include/products-inner.php:73
+#: include/products-inner.php:180 include/products-inner.php:277
+msgid "בחירת אפשרויות"
+msgstr "View Options"
+
+#: include/products-inner.php:52 include/products-inner.php:143
+#: include/products-inner.php:228
+msgid "המחיר אינו כולל מע\"מ"
+msgstr "(Pre VAT)"
+
+#: include/products-inner.php:56
+msgid "מחיר אחרון"
+msgstr "Last Price"
+
+#: include/products-inner.php:66
+msgid "לעמוד תנועות פריט"
+msgstr "Item transactions page"
+
+#: include/products-inner.php:79
+msgid "מידע נוסף"
+msgstr "More Information"
+
+#: include/products-inner.php:81
+msgid "מבט מהיר"
+msgstr "Quick View"
+
+#: include/products-inner.php:219
+msgid "כמות בסל"
+msgstr "In your cart"
+
+#: include/products-inner.php:220
+msgid "במלאי"
+msgstr "In stock"
+
+#: include/products-inner.php:280
+msgid "לרשימת המשאלות"
+msgstr "Wish list"
+
+#: include/products-inner.php:281
+msgid "הצגת רשימה"
+msgstr "See list"
+
+#: include/reports-acc.php:6
+msgid "יתרה נוכחית"
+msgstr "Current balance"
+
+#: include/reports-acc.php:9
+msgid "סינון תוצאות לפי"
+msgstr "Sort results by"
+
+#: include/reports-acc.php:13
+msgid "תאריך"
+msgstr "Date"
+
+#: include/reports-acc.php:16 include/reports-acc.php:30
+#: include/reports-acc.php:44 include/reports-acc.php:57
+#: include/reports-acc.php:71 include/reports-item.php:18
+msgid "החל מ"
+msgstr "From"
+
+#: include/reports-acc.php:20 include/reports-acc.php:34
+#: include/reports-acc.php:48 include/reports-acc.php:61
+#: include/reports-acc.php:75 include/reports-item.php:22
+#: include/reports-item.php:30 include/reports-item.php:37
+#: include/reports-item.php:44 include/reports-item.php:51
+#: include/reports-item.php:58 include/reports-item.php:66
+#: include/reports-item.php:73 include/reports-item.php:80
+#: include/reports-item.php:87
+msgid "עד"
+msgstr "To"
+
+#: include/reports-acc.php:27 include/reports-item.php:28
+msgid "תאריך ערך"
+msgstr "Due Date"
+
+#: include/reports-acc.php:41 include/reports-item.php:35
+msgid "אסמכתא"
+msgstr "Reference"
+
+#: include/reports-acc.php:54 include/reports-item.php:42
+msgid "אסמכתא-2"
+msgstr "Reference-2"
+
+#: include/reports-acc.php:68
+msgid "סכום בש\"ח"
+msgstr "Amount"
+
+#: include/reports-acc.php:86
+msgid "הצג רק תנועות פתוחות"
+msgstr "Open transactions only"
+
+#: include/reports-acc.php:89 include/reports-item.php:102
+msgid "מיון לפי"
+msgstr "Sort by"
+
+#: include/reports-acc.php:91 include/reports-item.php:104
+msgid "ברירת מחדל"
+msgstr "Default"
+
+#: include/reports-acc.php:96 include/reports-item.php:109
+msgid "הפקה"
+msgstr "Run"
+
+#: include/reports-acc.php:97
+msgid "הדפסה"
+msgstr "Print"
+
+#: include/reports-acc.php:104 include/reports-item.php:116
+msgid "תנועות נמצאו"
+msgstr "transactions found"
+
+#: include/reports-item.php:16
+msgid "סינון תוצאות לפי תאריך"
+msgstr "Sort results by date"
+
+#: include/reports-item.php:49
+msgid "סכום"
+msgstr "Amount"
+
+#: include/reports-item.php:71
+msgid "הנחת פריט"
+msgstr "Item Discount"
+
+#: include/reports-item.php:78
+msgid "הנחה כללית"
+msgstr "General Discount"
+
+#: include/reports-item.php:85
+msgid "מחיר נטו ללא מעמ"
+msgstr "Net Price"
+
+#: include/reports-item.php:96
+msgid "מפתח פריט"
+msgstr "Item Key"
+
+#: include/search-location.php:6
+msgid "נמצאו"
+msgstr "Found"
+
+#: include/search-location.php:6
+msgid "מוצרים"
+msgstr "Items"
+
+#: include/search-location.php:9
+msgid "לא נמצאו מוצרים תואמים לחיפוש"
+msgstr "No items matching your search query were found"
+
+#: include/search-product.php:5
+msgid "תוצאות חיפוש"
+msgstr "Search results"
+
+#: include/user-area.php:20 include/user-area.php:34
+msgid "עדכון פרופיל"
+msgstr "Personal Information"
+
+#: include/user-area.php:25 include/user-area.php:37
+msgid "קניות קודמות"
+msgstr "Previous purchases"
+
+#: include/user-area.php:26 include/user-area.php:38
+msgid "סל קבוע"
+msgstr "Default Order"
+
+#: include/user-area.php:28 include/user-area.php:40
+msgid "כרטסת הנהלת חשבונות"
+msgstr "Accounting Statement"
+
+#: include/user-area.php:29 include/user-area.php:41
+msgid "דו\"ח פריטים"
+msgstr "Items Transactions"
+
+#: include/user-details.php:129
+msgid "אני מסכים/ה לקבל חשבונית מס דיגיטלית (במקום חשבונית מס מודפסת על נייר)"
+msgstr "I agree to receive a digital invoice (instead of printed invoice)"
+
+#: include/user-details.php:133
+msgid "שינוי"
+msgstr "Change"
+
+#: include/wish-list.php:83
+msgid "רשימת המשאלות עדיין ריקה."
+msgstr "Wish list is currently empty."
+
+#: widgets/newsletters-widget.php:15
+msgid "כתובת מייל"
+msgstr "Email"
+
+#: widgets/sign-in-b2b-widget.php:26
+msgid "שכחתי סיסמא/כניסה ראשונה"
+msgstr "Forgot your password or first login?"
+
+#: widgets/sign-in-b2b-widget.php:47 widgets/sign-in-widget.php:34
+msgid "איזור האישי"
+msgstr "User Area"
+
+#: widgets/sign-in-widget.php:26
+msgid "שכחתי סיסמא, שלחו לי בבקשה"
+msgstr "I forgot my password, please email it to me"
+
+#~ msgid "הוספה לרשימת המשאלות"
+#~ msgstr "Add to Wish List"
+
+#~ msgid "לסל"
+#~ msgstr "To Cart"
+
+#~ msgid "אני מאשר/ת קבלת קופונים"
+#~ msgstr "I agree to receive coupons "
+
+#~ msgid "אני מאשר/ת קבלת חומר פרסומי"
+#~ msgstr "I agree to receive coupons and promotional materials via Email"
+
+#~ msgid "האם כתובת המשלוח זהה לכתובת החשבונית?"
+#~ msgstr "Is the billing address identical to the shipping address?"
+
+#~ msgid "לא"
+#~ msgstr "No"
+
+#~ msgid "כן"
+#~ msgstr "Yes"
+
+#~ msgid " אני מסכים/ה לקבל חומר פרסומי ושיווקי באמצעות הדואר האלקטרוני"
+#~ msgstr " I agree to receive marketing and promotional materials via Email"
+
+#~ msgid "הרשמה למערכת"
+#~ msgstr "Sign Up"
+
+#~ msgid "עריכת פרטים"
+#~ msgstr "Update Personal Info"
+
+#~ msgid "תרמתי בעבר"
+#~ msgstr "I've donated before"
+
+#~ msgid "עדכון פרטים"
+#~ msgstr "Update "
+
+#~ msgid "הרשמה ומעבר לתרומה"
+#~ msgstr "Sign up and go to donations"
+
+#~ msgid "מייל זה אינו קיים במערכת."
+#~ msgstr "This email doesn't in our system"
+
+#~ msgid "אתם מוזמנים למלא פרטים ולהמשיך לתרומה"
+#~ msgstr "Please sign up, and continue to the donation"
+
+#~ msgid "הזדהות"
+#~ msgstr "Personal Information"
+
+#~ msgid "לא תרמתי בעבר"
+#~ msgstr "I haven't donated before"
+
+#~ msgid "עריכת פרטים אישיים"
+#~ msgstr "Update personal information"
+
+#~ msgid "התחברות / הרשמה"
+#~ msgstr "Log In / Sign Up"
+
+#~ msgid "סיום"
+#~ msgstr "Finish"
+
+#~ msgid "הערה לרכישה"
+#~ msgstr "Order Remarks"
+
+#~ msgid "סינון מוצרים"
+#~ msgstr "Filter items"
+
+#~ msgid "הוספת הערכה לסל"
+#~ msgstr "Add Set to Cart"
+
+#~ msgid "בסל"
+#~ msgstr "in your cart"
+
+#, fuzzy
+#~| msgid "יחידות"
+#~ msgid "יחידות:"
+#~ msgstr "Units"
